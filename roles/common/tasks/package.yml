@@ -1,0 +1,27 @@
+- yum: name={{ item }} state=latest 
+  with_items:
+     - git
+     - rsync
+     - autoconf
+     - automake
+     - gcc
+     - patch
+     - patchutils
+     - unzip
+     - libjpeg-turbo-devel
+     - libpng-devel
+     - ntp
+     - tcpdump
+     - telnet
+     - sysstat
+     - bind-utils
+     - nfs-utils
+     - lsof
+     - strace
+     - traceroute
+     - libselinux-python
+     - ncurses
+     - ncurses-devel
+
+- name: Stop iptables
+  service: name=iptables state=stopped enabled=no

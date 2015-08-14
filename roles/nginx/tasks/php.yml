@@ -1,0 +1,15 @@
+---
+- name: Install PHP
+  yum: >
+    name={{item}}
+  with_items:
+    - php
+    - php-fpm 
+    - php-mbstring
+
+- template: src=www.conf.j2 
+    dest=/etc/php-fpm.d/www.conf owner=root group=root 
+  notify: restart php-fpm
+
+- name: Start php-fpm
+  service: name=php-fpm state=started enabled=yes

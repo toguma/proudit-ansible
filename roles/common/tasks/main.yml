@@ -1,0 +1,6 @@
+- hostname: name={{ inventory_hostname }}
+
+- include: swap.yml
+- include: package.yml
+- include: timezone.yml
+- include: epel.yml

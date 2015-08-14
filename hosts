@@ -1,0 +1,6 @@
+[blog]
+X.X.X.X ansible_ssh_user=ec2-user
+
+[production:children]
+blog
+

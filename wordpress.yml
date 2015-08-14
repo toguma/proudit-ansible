@@ -1,0 +1,8 @@
+- hosts: blog
+  sudo: yes
+
+  roles:
+    - common
+    - nginx
+    - mysql
+    - wordpress

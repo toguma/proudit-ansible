@@ -6,7 +6,7 @@ wp_sha256sum: 618ac08c2be3959b37f4ee0006558da65b7a4bca19bfb4b86ea60e5d53043ee9
 # These are the WordPress database settings
 wp_db_name: wordpress 
 wp_db_user: wordpress
-wp_db_password: pd#560xx
+wp_db_password: Passwd$1
 
 # You shouldn't need to change this.
 mysql_port: 3306

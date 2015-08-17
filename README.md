@@ -8,7 +8,7 @@ AmazonLinuxをベースにyum利用可能なミドルウェアパッケージで
 
 利用OSはAmazonLinux(2015.03)を想定。
 
-##構成
+##構成(2015/08/17時点)
 AmazonLinux 2015.03-release  
 nginx 1.6.2  
 php-fpm 5.3  

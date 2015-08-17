@@ -9,11 +9,11 @@ AmazonLinuxをベースにyum利用可能なミドルウェアパッケージで
 利用OSはAmazonLinux(2015.03)を想定。
 
 ##構成
-AmazonLinux 2015.03-release
-nginx 1.6.2
-php-fpm 5.3
-mysql 5.5
-wordpress 4.1.2
+AmazonLinux 2015.03-release  
+nginx 1.6.2  
+php-fpm 5.3  
+mysql 5.5  
+wordpress 4.1.2  
 
 ##利用方法
 1.環境変数を定義 

@@ -25,14 +25,13 @@ wordpress 4.1.2
  以下の下記情報を編集  
  　※印の箇所は変更必須項目  
   
-Mysql Wordpress用　新規DB情報（指定した情報で初期構築します)    
+-Mysql 新規DB情報（指定した情報で初期構築します)    
 >wp_db_name=wordpress   
 >wp_db_user=wordpress  
 >wp_db_password=Your-DB-Password  ※  
 
-サイトURL　 
+-Webサーバ設定  
 >server_hostname=Your-Wordpress-Server-URL  ※  
->-Nginx DocumentRoot  
 >webroot=/usr/share/nginx/html  
 
   

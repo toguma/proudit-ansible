@@ -28,10 +28,10 @@ wordpress 4.1.2
 >-Mysql Wordpress用　新規DB情報（指定した情報で初期構築します） 
 >wp_db_name=wordpress  
 >wp_db_user=wordpress  
->wp_db_password=Passwd$1  
+>wp_db_password=Your-DB-Password  ※  
 
->-サイトURL　※  
->server_hostname=Your-Wordpress-Server-URL  
+>-サイトURL　
+>server_hostname=Your-Wordpress-Server-URL  ※  
 >-Nginx DocumentRoot  
 >webroot=/usr/share/nginx/html  
 

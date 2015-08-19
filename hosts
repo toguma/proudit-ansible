@@ -1,7 +1,7 @@
-[blog]
+[wordpress]
 X.X.X.X ansible_ssh_user=ec2-user
 
-[blog:vars]
+[wordpress:vars]
 wp_db_name=wordpress
 wp_db_user=wordpress
 wp_db_password=Your-DB-Password

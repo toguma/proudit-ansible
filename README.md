@@ -18,10 +18,10 @@ wordpress 4.1.2
 ##利用方法
 1.hostsファイル内 環境変数を編集
 
- [blog]  
+ [wordpress]  
  X.X.X.Xの部分を対象サーバIP or ホスト名に修正  
   
- [blog:vars]  
+ [wordpress:vars]  
  以下の下記情報を編集  
  　※印の箇所は変更必須項目  
   

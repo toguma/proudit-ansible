@@ -21,7 +21,7 @@ wordpress 4.1.2
  [blog]  
  X.X.X.Xの部分を対象サーバIP or ホスト名に修正  
   
- [all:vars]  
+ [blog:vars]  
  以下の下記情報を編集  
  　※印の箇所は変更必須項目  
   
